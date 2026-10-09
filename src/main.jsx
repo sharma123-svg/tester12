@@ -8,7 +8,10 @@ function App() {
       <div className="card">
         <p className="eyebrow">React starter</p>
         <h1>Hello, React</h1>
-        
+        <p>Vite is ready for your next idea.</p>
+        <button type="button" onClick={() => alert('It works!')}>
+          Test the app
+        </button>
       </div>
     </main>
   );
